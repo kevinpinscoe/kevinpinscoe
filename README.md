@@ -68,7 +68,6 @@ AWS, Azure, Kubernetes, infrastructure as code, observability, and operational t
 
 Playbooks, conventions, and example code that demonstrate how I work.
 
-- [kevins-opinionated-skills](https://github.com/kevinpinscoe/kevins-opinionated-skills) — Reusable skills built around Kevin's preferred tools, conventions, and ways of working.
 - [playbook](https://github.com/kevinpinscoe/playbook) — Workflows, structures, scripts, and operational practices I use in daily engineering work and life.
 
 ## Proof of Concept and Moonshot Projects
@@ -85,19 +84,16 @@ Go, Python, command-line tools, and developer tooling.
 
 - [apt](https://github.com/kevinpinscoe/apt) — Debian APT repository for kevinpinscoe tools — served via GitHub Pages
 - [dotfiles](https://github.com/kevinpinscoe/dotfiles) — How I work sanely in terminal between Linux, Mac and Raspberry Pi (`dotfiles`)
-- [get-wx](https://github.com/kevinpinscoe/get-wx) — A very simple open meteo weather parser written in golang
 - [homebrew-tap](https://github.com/kevinpinscoe/homebrew-tap) — Homebrew tap for kevinpinscoe tools
 - [humungit](https://github.com/kevinpinscoe/humungit) — Greetings from the Lord Humungit, the warrior of the git wasteland!
-- [metar-tool](https://github.com/kevinpinscoe/metar-tool) — A tool for obtaining and parsing weather observations and forecasts (`metar`, `weather`)
 - [rpm](https://github.com/kevinpinscoe/rpm) — Fedora RPM repository for kevinpinscoe tools — served via GitHub Pages
 - [scoop-bucket](https://github.com/kevinpinscoe/scoop-bucket) — Scoop manifests for applications and tools I author or maintain
-- [tools](https://github.com/kevinpinscoe/tools) — Linux and Mac tools I have created
-- [unix-hacks](https://github.com/kevinpinscoe/unix-hacks) — Unix hacks I have collected over the decades
 
 ## AI
 
 AI skills, automation, and tooling built around Claude Code and other assistants.
 
+- [kevins-opinionated-skills](https://github.com/kevinpinscoe/kevins-opinionated-skills) — Reusable skills built around Kevin's preferred tools, conventions, and ways of working.
 - [skills](https://github.com/kevinpinscoe/skills) — My personal directory of skills designed around a TUI to invoke them.
 - [skills-tui](https://github.com/kevinpinscoe/skills-tui) — A TUI based command line skills chooser to be executed by Claude Code.
 
@@ -107,12 +103,14 @@ Command-line utilities and helper tools.
 
 - [ashpodder](https://github.com/kevinpinscoe/ashpodder) — My version of bashpodder, named for Ash in the Evil Dead movies.
 - [ddir](https://github.com/kevinpinscoe/ddir) — Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.
+- [line-reorder-gui](https://github.com/kevinpinscoe/line-reorder-gui) — Reorder lines by drag and drop using a GUI. (`editor`, `line-reordering`, `markdown`)
+- [tools](https://github.com/kevinpinscoe/tools) — Linux and Mac tools I have created.
+- [unix-hacks](https://github.com/kevinpinscoe/unix-hacks) — Unix hacks I have collected over the decades.
 
 ## Applications
 
 Web applications, desktop tools, and GUI utilities.
 
-- [line-reorder-gui](https://github.com/kevinpinscoe/line-reorder-gui) — Allow you to reorder lines by drag and drop using a GUI (`editor`, `line-reordering`, `markdown`)
 - [marktext-theme-gruvbox](https://github.com/kevinpinscoe/marktext-theme-gruvbox) — Gruvbox dark theme for Mark Text export
 - [matomo-platform-config](https://github.com/kevinpinscoe/matomo-platform-config) — Examples of how I manage Matomo analytics tracking.
 - [pastebooks](https://github.com/kevinpinscoe/pastebooks) — Simple web app to store paste buffers that are commonly used or shared on a frequent basis in sets of books
@@ -138,15 +136,14 @@ PKM, PCM, documentation, and information organization.
 
 Amateur radio programming, archives, and references.
 
-- [archives](https://github.com/kevinpinscoe/archives) — Archive of old articles from the 1990s–mid-2000s, many still linked to. (`cisco`, `hamradio`, `hardware`, `highavailability`, `radio-monitoring`, `railroad`, `retrocomputing`, `schematics`, `service-manual`, `tentec`)
 - [rx320-cli](https://github.com/kevinpinscoe/rx320-cli) — A slight fork of the original A. Maitland Bottoms rx320.c command line RX-320 tuner
 
 ## Weather
 
 Weather reporting, instrumentation, and decoding.
 
-- [get-wx](https://github.com/kevinpinscoe/get-wx) — A very simple open meteo weather parser written in golang
-- [metar-tool](https://github.com/kevinpinscoe/metar-tool) — A tool for obtaining and parsing weather observations and forecasts (`metar`, `weather`)
+- [get-wx](https://github.com/kevinpinscoe/get-wx) — A very simple Open-Meteo weather parser written in Go.
+- [metar-tool](https://github.com/kevinpinscoe/metar-tool) — A tool for obtaining and parsing weather observations and forecasts (METAR). (`metar`, `weather`)
 - [WXTools](https://github.com/kevinpinscoe/WXTools) — Tools I use to collect, notify and report weather events
 
 ## Outliers
@@ -154,6 +151,7 @@ Weather reporting, instrumentation, and decoding.
 Profile, meta, and uncategorized repositories.
 
 - [.github](https://github.com/kevinpinscoe/.github) — How to contribute to projects I am maintaining
+- [archives](https://github.com/kevinpinscoe/archives) — Archive of old articles from the 1990s–mid-2000s, many still linked to. (`cisco`, `hamradio`, `hardware`, `highavailability`, `radio-monitoring`, `railroad`, `retrocomputing`, `schematics`, `service-manual`, `tentec`)
 - [https-github.com-kevinpinscoe](https://github.com/kevinpinscoe/https-github.com-kevinpinscoe) — Profile landing content for kevinpinscoe.
 - [kevinpinscoe.github.io](https://github.com/kevinpinscoe/kevinpinscoe.github.io) — The pages for Kevin Inscoe
 - [youtrack](https://github.com/kevinpinscoe/youtrack) — YouTrack workflows and scripts I created

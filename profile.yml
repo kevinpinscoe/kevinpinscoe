@@ -127,11 +127,11 @@ repositories:
 
     # Playbooks and Skill Demonstration
     playbook:               [area-playbooks]
-    kevins-opinionated-skills: [area-playbooks]
 
     # AI
     skills:                 [area-ai]
     skills-tui:             [area-ai]
+    kevins-opinionated-skills: [area-ai]
 
     # Proof of Concept and Moonshot Projects
     moonshot-projects:      [area-proof-of-concept]
@@ -139,10 +139,7 @@ repositories:
     python-docker-fun:      [area-proof-of-concept]
 
     # Software Development
-    tools:                  [area-software-development]
-    unix-hacks:             [area-software-development]
     humungit:               [area-software-development]
-    get-wx:                 [area-software-development, area-weather]
     dotfiles:               [area-software-development]
     homebrew-tap:           [area-software-development]
     scoop-bucket:           [area-software-development]
@@ -155,10 +152,12 @@ repositories:
     # Tools
     ashpodder:              [area-tools]
     ddir:                   [area-tools]
+    tools:                  [area-tools]
+    unix-hacks:             [area-tools]
+    line-reorder-gui:       [area-tools]
 
     # Applications
     pastebooks:             [area-applications]
-    line-reorder-gui:       [area-applications]
     marktext-theme-gruvbox: [area-applications]
     matomo-platform-config: [area-applications]
 
@@ -175,17 +174,18 @@ repositories:
     fedora-notes:           [area-knowledge-management]
 
     # Amateur Radio
-    archives:               [area-amateur-radio]
 
     # Weather
     WXTools:                [area-weather]
-    metar-tool:             [area-weather, area-software-development]
+    metar-tool:             [area-weather]
+    get-wx:                 [area-weather]
 
     # Outliers
     youtrack:               [area-outliers]
     kevinpinscoe.github.io: [area-outliers]
     .github:                [area-outliers]
     https-github.com-kevinpinscoe: [area-outliers]
+    archives:               [area-outliers]
 
   # Optional per-repo description and ordering overrides. When no override
   # exists, the GitHub description is used.
@@ -204,3 +204,17 @@ repositories:
       description: My version of bashpodder, named for Ash in the Evil Dead movies.
     ddir:
       description: Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.
+    kevins-opinionated-skills:
+      description: Reusable skills built around Kevin's preferred tools, conventions, and ways of working.
+    get-wx:
+      description: A very simple Open-Meteo weather parser written in Go.
+    metar-tool:
+      description: A tool for obtaining and parsing weather observations and forecasts (METAR).
+    tools:
+      description: Linux and Mac tools I have created.
+    unix-hacks:
+      description: Unix hacks I have collected over the decades.
+    line-reorder-gui:
+      description: Reorder lines by drag and drop using a GUI.
+    archives:
+      description: Archive of old articles from the 1990s–mid-2000s, many still linked to.
