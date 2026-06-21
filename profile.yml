@@ -49,6 +49,20 @@ categories:
       - Python
       - Developer tools
 
+  - name: AI
+    topic: area-ai
+    description: AI skills, automation, and tooling built around Claude Code and other assistants.
+    subjects:
+      - AI skills
+      - AI automation and tooling
+
+  - name: Tools
+    topic: area-tools
+    description: Command-line utilities and helper tools.
+    subjects:
+      - Command-line tools
+      - Utilities
+
   - name: Applications
     topic: area-applications
     description: Web applications, desktop tools, and GUI utilities.
@@ -110,13 +124,14 @@ repositories:
     iac-examples:           [area-infrastructure-sre]
     aws-linux-memory-tools: [area-infrastructure-sre]
     AWS:                    [area-infrastructure-sre]
-    matomo-platform-config: [area-infrastructure-sre]
 
     # Playbooks and Skill Demonstration
     playbook:               [area-playbooks]
-    skills:                 [area-playbooks]
-    skills-tui:             [area-playbooks]
     kevins-opinionated-skills: [area-playbooks]
+
+    # AI
+    skills:                 [area-ai]
+    skills-tui:             [area-ai]
 
     # Proof of Concept and Moonshot Projects
     moonshot-projects:      [area-proof-of-concept]
@@ -126,24 +141,30 @@ repositories:
     # Software Development
     tools:                  [area-software-development]
     unix-hacks:             [area-software-development]
-    ddir:                   [area-software-development]
     humungit:               [area-software-development]
     get-wx:                 [area-software-development, area-weather]
-    ashpodder:              [area-software-development]
     dotfiles:               [area-software-development]
     homebrew-tap:           [area-software-development]
     scoop-bucket:           [area-software-development]
     rpm:                    [area-software-development]
     apt:                    [area-software-development]
 
+    # AI
+    # (skills, skills-tui mapped above)
+
+    # Tools
+    ashpodder:              [area-tools]
+    ddir:                   [area-tools]
+
     # Applications
     pastebooks:             [area-applications]
     line-reorder-gui:       [area-applications]
     marktext-theme-gruvbox: [area-applications]
+    matomo-platform-config: [area-applications]
 
     # Hardware
     discrete_io_linux:      [area-hardware]
-    rx320-cli:              [area-hardware, area-amateur-radio]
+    rx320-cli:              [area-amateur-radio]
 
     # Knowledge Management
     personal-knowledge-management: [area-knowledge-management]
@@ -173,3 +194,13 @@ repositories:
       description: AWS infrastructure notes and examples.
     https-github.com-kevinpinscoe:
       description: Profile landing content for kevinpinscoe.
+    matomo-platform-config:
+      description: Examples of how I manage Matomo analytics tracking.
+    skills:
+      description: My personal directory of skills designed around a TUI to invoke them.
+    skills-tui:
+      description: A TUI based command line skills chooser to be executed by Claude Code.
+    ashpodder:
+      description: My version of bashpodder, named for Ash in the Evil Dead movies.
+    ddir:
+      description: Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.

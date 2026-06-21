@@ -28,26 +28,32 @@ graph TD
     c3 --> c3s0["Go"]
     c3 --> c3s1["Python"]
     c3 --> c3s2["Developer tools"]
-    profile --> c4["Applications"]
-    c4 --> c4s0["Web applications"]
-    c4 --> c4s1["Desktop and GUI tools"]
-    profile --> c5["Hardware"]
-    c5 --> c5s0["Raspberry Pi"]
-    c5 --> c5s1["Discrete I/O and devices"]
-    profile --> c6["Knowledge Management"]
-    c6 --> c6s0["Personal knowledge management (PKM)"]
-    c6 --> c6s1["Personal content management (PCM)"]
-    c6 --> c6s2["Documentation tools"]
-    profile --> c7["Amateur Radio"]
-    c7 --> c7s0["Amateur radio programming"]
-    c7 --> c7s1["Radio archives and references"]
-    profile --> c8["Weather"]
-    c8 --> c8s0["Weather reporting"]
-    c8 --> c8s1["Weather instrumentation"]
-    c8 --> c8s2["Weather decoding"]
-    profile --> c9["Outliers"]
-    c9 --> c9s0["Profile and meta repositories"]
-    c9 --> c9s1["Uncategorized projects"]
+    profile --> c4["AI"]
+    c4 --> c4s0["AI skills"]
+    c4 --> c4s1["AI automation and tooling"]
+    profile --> c5["Tools"]
+    c5 --> c5s0["Command-line tools"]
+    c5 --> c5s1["Utilities"]
+    profile --> c6["Applications"]
+    c6 --> c6s0["Web applications"]
+    c6 --> c6s1["Desktop and GUI tools"]
+    profile --> c7["Hardware"]
+    c7 --> c7s0["Raspberry Pi"]
+    c7 --> c7s1["Discrete I/O and devices"]
+    profile --> c8["Knowledge Management"]
+    c8 --> c8s0["Personal knowledge management (PKM)"]
+    c8 --> c8s1["Personal content management (PCM)"]
+    c8 --> c8s2["Documentation tools"]
+    profile --> c9["Amateur Radio"]
+    c9 --> c9s0["Amateur radio programming"]
+    c9 --> c9s1["Radio archives and references"]
+    profile --> c10["Weather"]
+    c10 --> c10s0["Weather reporting"]
+    c10 --> c10s1["Weather instrumentation"]
+    c10 --> c10s2["Weather decoding"]
+    profile --> c11["Outliers"]
+    c11 --> c11s0["Profile and meta repositories"]
+    c11 --> c11s1["Uncategorized projects"]
 ```
 
 ## Compute Infrastructure and Site Reliability Engineering
@@ -57,7 +63,6 @@ AWS, Azure, Kubernetes, infrastructure as code, observability, and operational t
 - [AWS](https://github.com/kevinpinscoe/AWS) — AWS infrastructure notes and examples.
 - [aws-linux-memory-tools](https://github.com/kevinpinscoe/aws-linux-memory-tools) — Some tools to determine if your AWS Linux instance is too small
 - [iac-examples](https://github.com/kevinpinscoe/iac-examples) — Some examples of Infrastructure as Code (IaC)
-- [matomo-platform-config](https://github.com/kevinpinscoe/matomo-platform-config) — Examples of how I manage Matomo analytics tracking
 
 ## Playbooks and Skill Demonstration
 
@@ -65,8 +70,6 @@ Playbooks, conventions, and example code that demonstrate how I work.
 
 - [kevins-opinionated-skills](https://github.com/kevinpinscoe/kevins-opinionated-skills) — Reusable skills built around Kevin's preferred tools, conventions, and ways of working.
 - [playbook](https://github.com/kevinpinscoe/playbook) — Workflows, structures, scripts, and operational practices I use in daily engineering work and life.
-- [skills](https://github.com/kevinpinscoe/skills) — My personal directory of skills designed around a TUI to invoke them
-- [skills-tui](https://github.com/kevinpinscoe/skills-tui) — A TUI based command line skills chooser to be executed by Claude-code
 
 ## Proof of Concept and Moonshot Projects
 
@@ -81,8 +84,6 @@ Experiments, sandboxes, and difficult long-term projects.
 Go, Python, command-line tools, and developer tooling.
 
 - [apt](https://github.com/kevinpinscoe/apt) — Debian APT repository for kevinpinscoe tools — served via GitHub Pages
-- [ashpodder](https://github.com/kevinpinscoe/ashpodder) — My version of bashpodder named for Ash in the Evil Dead movies
-- [ddir](https://github.com/kevinpinscoe/ddir) — Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ
 - [dotfiles](https://github.com/kevinpinscoe/dotfiles) — How I work sanely in terminal between Linux, Mac and Raspberry Pi (`dotfiles`)
 - [get-wx](https://github.com/kevinpinscoe/get-wx) — A very simple open meteo weather parser written in golang
 - [homebrew-tap](https://github.com/kevinpinscoe/homebrew-tap) — Homebrew tap for kevinpinscoe tools
@@ -93,12 +94,27 @@ Go, Python, command-line tools, and developer tooling.
 - [tools](https://github.com/kevinpinscoe/tools) — Linux and Mac tools I have created
 - [unix-hacks](https://github.com/kevinpinscoe/unix-hacks) — Unix hacks I have collected over the decades
 
+## AI
+
+AI skills, automation, and tooling built around Claude Code and other assistants.
+
+- [skills](https://github.com/kevinpinscoe/skills) — My personal directory of skills designed around a TUI to invoke them.
+- [skills-tui](https://github.com/kevinpinscoe/skills-tui) — A TUI based command line skills chooser to be executed by Claude Code.
+
+## Tools
+
+Command-line utilities and helper tools.
+
+- [ashpodder](https://github.com/kevinpinscoe/ashpodder) — My version of bashpodder, named for Ash in the Evil Dead movies.
+- [ddir](https://github.com/kevinpinscoe/ddir) — Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.
+
 ## Applications
 
 Web applications, desktop tools, and GUI utilities.
 
 - [line-reorder-gui](https://github.com/kevinpinscoe/line-reorder-gui) — Allow you to reorder lines by drag and drop using a GUI (`editor`, `line-reordering`, `markdown`)
 - [marktext-theme-gruvbox](https://github.com/kevinpinscoe/marktext-theme-gruvbox) — Gruvbox dark theme for Mark Text export
+- [matomo-platform-config](https://github.com/kevinpinscoe/matomo-platform-config) — Examples of how I manage Matomo analytics tracking.
 - [pastebooks](https://github.com/kevinpinscoe/pastebooks) — Simple web app to store paste buffers that are commonly used or shared on a frequent basis in sets of books
 
 ## Hardware
@@ -106,7 +122,6 @@ Web applications, desktop tools, and GUI utilities.
 Raspberry Pi, discrete I/O, and device-level programming.
 
 - [discrete_io_linux](https://github.com/kevinpinscoe/discrete_io_linux) — Discrete i/o programming in linux
-- [rx320-cli](https://github.com/kevinpinscoe/rx320-cli) — A slight fork of the original A. Maitland Bottoms rx320.c command line RX-320 tuner
 
 ## Knowledge Management
 
