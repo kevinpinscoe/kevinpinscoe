@@ -181,13 +181,29 @@ class RenderingTests(unittest.TestCase):
         self.assertIn('"Software Development"', m1)
 
     def test_no_metrics_in_output(self):
-        # No rendered metrics: no images, badges, metric cards, or activity graphs.
+        # No rendered metrics: no badges, metric cards, or activity graphs.
+        # The only permitted image is the local knowledge-map SVG.
         profile = make_profile()
         repos = [repo("tool", topics=["area-software-development"])]
         out = gen.render_markdown(profile, self._grouped(profile, repos))
-        for banned in ("![", "shields.io", "img.shields", "star-history",
+        for banned in ("shields.io", "img.shields", "star-history",
                        "github-readme-stats"):
             self.assertNotIn(banned, out.lower())
+        # The knowledge map is embedded as the local SVG, and it is the only image.
+        self.assertIn(f"![", out)
+        self.assertIn(gen.KMAP_SVG_REF, out)
+        self.assertEqual(out.count("!["), 1)
+
+    def test_knowledge_map_dot_is_deterministic_and_radial(self):
+        profile = make_profile()
+        repos = [repo("tool", topics=["area-software-development"])]
+        grouped = self._grouped(profile, repos)
+        d1 = gen.render_graphviz_dot(profile, grouped)
+        d2 = gen.render_graphviz_dot(profile, grouped)
+        self.assertEqual(d1, d2)
+        self.assertIn("layout=twopi", d1)
+        self.assertIn('"Software Development"', d1)
+        self.assertIn("root -- c0", d1)
 
     def test_markdown_escapes_pipe(self):
         profile = make_profile()
