@@ -54,9 +54,12 @@ graph TD
     c11 --> c11s0["Weather reporting"]
     c11 --> c11s1["Weather instrumentation"]
     c11 --> c11s2["Weather decoding"]
-    profile --> c12["Outliers"]
-    c12 --> c12s0["Profile and meta repositories"]
-    c12 --> c12s1["Uncategorized projects"]
+    profile --> c12["Project and Task Management"]
+    c12 --> c12s0["Issue and project tracking"]
+    c12 --> c12s1["Workflow tooling"]
+    profile --> c13["Outliers"]
+    c13 --> c13s0["Profile and meta repositories"]
+    c13 --> c13s1["Uncategorized projects"]
 ```
 
 ## Compute Infrastructure and Site Reliability Engineering
@@ -154,6 +157,12 @@ Weather reporting, instrumentation, and decoding.
 - [metar-tool](https://github.com/kevinpinscoe/metar-tool) — A tool for obtaining and parsing weather observations and forecasts (METAR). (`metar`, `weather`)
 - [WXTools](https://github.com/kevinpinscoe/WXTools) — Tools I use to collect, notify and report weather events
 
+## Project and Task Management
+
+Project tracking, issue management, and workflow tooling.
+
+- [youtrack](https://github.com/kevinpinscoe/youtrack) — YouTrack workflows and scripts I created.
+
 ## Outliers
 
 Profile, meta, and uncategorized repositories.
@@ -162,7 +171,6 @@ Profile, meta, and uncategorized repositories.
 - [archives](https://github.com/kevinpinscoe/archives) — Archive of old articles from the 1990s–mid-2000s, many still linked to. (`cisco`, `hamradio`, `hardware`, `highavailability`, `radio-monitoring`, `railroad`, `retrocomputing`, `schematics`, `service-manual`, `tentec`)
 - [https-github.com-kevinpinscoe](https://github.com/kevinpinscoe/https-github.com-kevinpinscoe) — Profile landing content for kevinpinscoe.
 - [kevinpinscoe.github.io](https://github.com/kevinpinscoe/kevinpinscoe.github.io) — The pages for Kevin Inscoe
-- [youtrack](https://github.com/kevinpinscoe/youtrack) — YouTrack workflows and scripts I created
 
 ---
 

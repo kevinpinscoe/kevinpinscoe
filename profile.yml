@@ -107,6 +107,13 @@ categories:
       - Weather instrumentation
       - Weather decoding
 
+  - name: Project and Task Management
+    topic: area-project-management
+    description: Project tracking, issue management, and workflow tooling.
+    subjects:
+      - Issue and project tracking
+      - Workflow tooling
+
   - name: Outliers
     topic: area-outliers
     description: Profile, meta, and uncategorized repositories.
@@ -189,8 +196,10 @@ repositories:
     metar-tool:             [area-weather]
     get-wx:                 [area-weather]
 
+    # Project and Task Management
+    youtrack:               [area-project-management]
+
     # Outliers
-    youtrack:               [area-outliers]
     kevinpinscoe.github.io: [area-outliers]
     .github:                [area-outliers]
     https-github.com-kevinpinscoe: [area-outliers]
@@ -235,3 +244,5 @@ repositories:
       description: My newer method of writing books using Pandoc, a manifest, and Markdown.
     mydocs:
       description: Source for kevininscoe.com/docs.
+    youtrack:
+      description: YouTrack workflows and scripts I created.
