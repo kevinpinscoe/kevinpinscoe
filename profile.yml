@@ -85,6 +85,13 @@ categories:
       - Personal content management (PCM)
       - Documentation tools
 
+  - name: Publishing and Markdown
+    topic: area-publishing-markdown
+    description: Book publishing, documentation sources, and Markdown authoring tools.
+    subjects:
+      - Book publishing
+      - Markdown authoring
+
   - name: Amateur Radio
     topic: area-amateur-radio
     description: Amateur radio programming, archives, and references.
@@ -124,6 +131,7 @@ repositories:
     iac-examples:           [area-infrastructure-sre]
     aws-linux-memory-tools: [area-infrastructure-sre]
     AWS:                    [area-infrastructure-sre]
+    fedora-notes:           [area-infrastructure-sre]
 
     # Playbooks and Skill Demonstration
     playbook:               [area-playbooks]
@@ -154,7 +162,6 @@ repositories:
     ddir:                   [area-tools]
     tools:                  [area-tools]
     unix-hacks:             [area-tools]
-    line-reorder-gui:       [area-tools]
 
     # Applications
     pastebooks:             [area-applications]
@@ -168,10 +175,12 @@ repositories:
     # Knowledge Management
     personal-knowledge-management: [area-knowledge-management]
     personal-context-management:   [area-knowledge-management]
-    mydocs:                 [area-knowledge-management]
-    how-I-make-books-now:   [area-knowledge-management]
-    how-I-make-books-legacy: [area-knowledge-management]
-    fedora-notes:           [area-knowledge-management]
+
+    # Publishing and Markdown
+    mydocs:                 [area-publishing-markdown]
+    how-I-make-books-now:   [area-publishing-markdown]
+    how-I-make-books-legacy: [area-publishing-markdown]
+    line-reorder-gui:       [area-publishing-markdown]
 
     # Amateur Radio
 
@@ -218,3 +227,11 @@ repositories:
       description: Reorder lines by drag and drop using a GUI.
     archives:
       description: Archive of old articles from the 1990s–mid-2000s, many still linked to.
+    fedora-notes:
+      description: Notes and observations on using Fedora KDE Plasma as a development desktop.
+    how-I-make-books-legacy:
+      description: How I make books (typically).
+    how-I-make-books-now:
+      description: My newer method of writing books using Pandoc, a manifest, and Markdown.
+    mydocs:
+      description: Source for kevininscoe.com/docs.

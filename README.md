@@ -44,16 +44,19 @@ graph TD
     c8 --> c8s0["Personal knowledge management (PKM)"]
     c8 --> c8s1["Personal content management (PCM)"]
     c8 --> c8s2["Documentation tools"]
-    profile --> c9["Amateur Radio"]
-    c9 --> c9s0["Amateur radio programming"]
-    c9 --> c9s1["Radio archives and references"]
-    profile --> c10["Weather"]
-    c10 --> c10s0["Weather reporting"]
-    c10 --> c10s1["Weather instrumentation"]
-    c10 --> c10s2["Weather decoding"]
-    profile --> c11["Outliers"]
-    c11 --> c11s0["Profile and meta repositories"]
-    c11 --> c11s1["Uncategorized projects"]
+    profile --> c9["Publishing and Markdown"]
+    c9 --> c9s0["Book publishing"]
+    c9 --> c9s1["Markdown authoring"]
+    profile --> c10["Amateur Radio"]
+    c10 --> c10s0["Amateur radio programming"]
+    c10 --> c10s1["Radio archives and references"]
+    profile --> c11["Weather"]
+    c11 --> c11s0["Weather reporting"]
+    c11 --> c11s1["Weather instrumentation"]
+    c11 --> c11s2["Weather decoding"]
+    profile --> c12["Outliers"]
+    c12 --> c12s0["Profile and meta repositories"]
+    c12 --> c12s1["Uncategorized projects"]
 ```
 
 ## Compute Infrastructure and Site Reliability Engineering
@@ -62,6 +65,7 @@ AWS, Azure, Kubernetes, infrastructure as code, observability, and operational t
 
 - [AWS](https://github.com/kevinpinscoe/AWS) — AWS infrastructure notes and examples.
 - [aws-linux-memory-tools](https://github.com/kevinpinscoe/aws-linux-memory-tools) — Some tools to determine if your AWS Linux instance is too small
+- [fedora-notes](https://github.com/kevinpinscoe/fedora-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop.
 - [iac-examples](https://github.com/kevinpinscoe/iac-examples) — Some examples of Infrastructure as Code (IaC)
 
 ## Playbooks and Skill Demonstration
@@ -103,7 +107,6 @@ Command-line utilities and helper tools.
 
 - [ashpodder](https://github.com/kevinpinscoe/ashpodder) — My version of bashpodder, named for Ash in the Evil Dead movies.
 - [ddir](https://github.com/kevinpinscoe/ddir) — Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.
-- [line-reorder-gui](https://github.com/kevinpinscoe/line-reorder-gui) — Reorder lines by drag and drop using a GUI. (`editor`, `line-reordering`, `markdown`)
 - [tools](https://github.com/kevinpinscoe/tools) — Linux and Mac tools I have created.
 - [unix-hacks](https://github.com/kevinpinscoe/unix-hacks) — Unix hacks I have collected over the decades.
 
@@ -125,12 +128,17 @@ Raspberry Pi, discrete I/O, and device-level programming.
 
 PKM, PCM, documentation, and information organization.
 
-- [fedora-notes](https://github.com/kevinpinscoe/fedora-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop
-- [how-I-make-books-legacy](https://github.com/kevinpinscoe/how-I-make-books-legacy) — How I make books (typically)
-- [how-I-make-books-now](https://github.com/kevinpinscoe/how-I-make-books-now) — My newer method of writing books using a Pandoc, a manifest and Markdown
-- [mydocs](https://github.com/kevinpinscoe/mydocs) — Source for kevininscoe.com/docs
 - [personal-context-management](https://github.com/kevinpinscoe/personal-context-management) — PCM workflow for capturing what matters now, so tools, people, and AI can work with the right background.
 - [personal-knowledge-management](https://github.com/kevinpinscoe/personal-knowledge-management) — My evolving pipelines and workflows for my Personal Knowledge Management using Obsidian.
+
+## Publishing and Markdown
+
+Book publishing, documentation sources, and Markdown authoring tools.
+
+- [how-I-make-books-legacy](https://github.com/kevinpinscoe/how-I-make-books-legacy) — How I make books (typically).
+- [how-I-make-books-now](https://github.com/kevinpinscoe/how-I-make-books-now) — My newer method of writing books using Pandoc, a manifest, and Markdown.
+- [line-reorder-gui](https://github.com/kevinpinscoe/line-reorder-gui) — Reorder lines by drag and drop using a GUI. (`editor`, `line-reordering`, `markdown`)
+- [mydocs](https://github.com/kevinpinscoe/mydocs) — Source for kevininscoe.com/docs.
 
 ## Amateur Radio
 
