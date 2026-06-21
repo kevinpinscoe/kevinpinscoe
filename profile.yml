@@ -1,0 +1,175 @@
+# profile.yml — human-maintained source of truth for the generated GitHub
+# profile README. Edit this file, then regenerate with:
+#
+#   GITHUB_TOKEN=$(gh auth token) python scripts/generate-readme.py
+#
+# README.md is generated output. Do not edit it by hand.
+
+owner: kevinpinscoe
+name: Kevin P. Inscoe
+summary: Software engineer, SRE, infrastructure builder, and technical hobbyist
+
+repository_defaults:
+  include_archived: false
+  include_forks: false
+
+# Category order here is the order sections appear in the README.
+# Each category maps to exactly one controlled `area-*` topic.
+categories:
+  - name: Compute Infrastructure and Site Reliability Engineering
+    topic: area-infrastructure-sre
+    description: AWS, Azure, Kubernetes, infrastructure as code, observability, and operational tooling.
+    subjects:
+      - AWS
+      - Azure
+      - Kubernetes
+      - Infrastructure as Code (IaC)
+      - Observability
+      - Operational tooling
+
+  - name: Playbooks and Skill Demonstration
+    topic: area-playbooks
+    description: Playbooks, conventions, and example code that demonstrate how I work.
+    subjects:
+      - Playbooks
+      - Example code
+
+  - name: Proof of Concept and Moonshot Projects
+    topic: area-proof-of-concept
+    description: Experiments, sandboxes, and difficult long-term projects.
+    subjects:
+      - Proof of concept
+      - Moonshot projects
+
+  - name: Software Development
+    topic: area-software-development
+    description: Go, Python, command-line tools, and developer tooling.
+    subjects:
+      - Go
+      - Python
+      - Developer tools
+
+  - name: Applications
+    topic: area-applications
+    description: Web applications, desktop tools, and GUI utilities.
+    subjects:
+      - Web applications
+      - Desktop and GUI tools
+
+  - name: Hardware
+    topic: area-hardware
+    description: Raspberry Pi, discrete I/O, and device-level programming.
+    subjects:
+      - Raspberry Pi
+      - Discrete I/O and devices
+
+  - name: Knowledge Management
+    topic: area-knowledge-management
+    description: PKM, PCM, documentation, and information organization.
+    subjects:
+      - Personal knowledge management (PKM)
+      - Personal content management (PCM)
+      - Documentation tools
+
+  - name: Amateur Radio
+    topic: area-amateur-radio
+    description: Amateur radio programming, archives, and references.
+    subjects:
+      - Amateur radio programming
+      - Radio archives and references
+
+  - name: Weather
+    topic: area-weather
+    description: Weather reporting, instrumentation, and decoding.
+    subjects:
+      - Weather reporting
+      - Weather instrumentation
+      - Weather decoding
+
+  - name: Outliers
+    topic: area-outliers
+    description: Profile, meta, and uncategorized repositories.
+    subjects:
+      - Profile and meta repositories
+      - Uncategorized projects
+
+repositories:
+  # Never appear in the catalog.
+  exclude:
+    - kevinpinscoe        # this profile repo itself
+
+  # Force-include repos that would otherwise be filtered out (archived/forks).
+  include: []
+
+  # Hybrid category source. Maps a repository name to one or more area topics.
+  # The generator unions these with any area-* topics already set on the repo
+  # on GitHub, so the catalog works before GitHub topics are applied.
+  # A repo may appear under more than one area.
+  categories:
+    # Compute Infrastructure and SRE
+    iac-examples:           [area-infrastructure-sre]
+    aws-linux-memory-tools: [area-infrastructure-sre]
+    AWS:                    [area-infrastructure-sre]
+    matomo-platform-config: [area-infrastructure-sre]
+
+    # Playbooks and Skill Demonstration
+    playbook:               [area-playbooks]
+    skills:                 [area-playbooks]
+    skills-tui:             [area-playbooks]
+    kevins-opinionated-skills: [area-playbooks]
+
+    # Proof of Concept and Moonshot Projects
+    moonshot-projects:      [area-proof-of-concept]
+    my-sandbox:             [area-proof-of-concept]
+    python-docker-fun:      [area-proof-of-concept]
+
+    # Software Development
+    tools:                  [area-software-development]
+    unix-hacks:             [area-software-development]
+    ddir:                   [area-software-development]
+    humungit:               [area-software-development]
+    get-wx:                 [area-software-development, area-weather]
+    ashpodder:              [area-software-development]
+    dotfiles:               [area-software-development]
+    homebrew-tap:           [area-software-development]
+    scoop-bucket:           [area-software-development]
+    rpm:                    [area-software-development]
+    apt:                    [area-software-development]
+
+    # Applications
+    pastebooks:             [area-applications]
+    line-reorder-gui:       [area-applications]
+    marktext-theme-gruvbox: [area-applications]
+
+    # Hardware
+    discrete_io_linux:      [area-hardware]
+    rx320-cli:              [area-hardware, area-amateur-radio]
+
+    # Knowledge Management
+    personal-knowledge-management: [area-knowledge-management]
+    personal-context-management:   [area-knowledge-management]
+    mydocs:                 [area-knowledge-management]
+    how-I-make-books-now:   [area-knowledge-management]
+    how-I-make-books-legacy: [area-knowledge-management]
+    fedora-notes:           [area-knowledge-management]
+
+    # Amateur Radio
+    archives:               [area-amateur-radio]
+
+    # Weather
+    WXTools:                [area-weather]
+    metar-tool:             [area-weather, area-software-development]
+
+    # Outliers
+    youtrack:               [area-outliers]
+    kevinpinscoe.github.io: [area-outliers]
+    .github:                [area-outliers]
+    https-github.com-kevinpinscoe: [area-outliers]
+
+  # Optional per-repo description and ordering overrides. When no override
+  # exists, the GitHub description is used.
+  overrides:
+    AWS:
+      description: AWS infrastructure notes and examples.
+    https-github.com-kevinpinscoe:
+      description: Profile landing content for kevinpinscoe.

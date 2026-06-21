@@ -1,0 +1,20 @@
+# Editor / OS / Python / AI artifacts (see ~/ai/directives/gitignore.md)
+**/resume.sh
+**/resume.txt
+**/.DS_Store
+**/.claude
+**/.claude/settings.local.json
+**/.codex
+**/.trash/
+**/.obsidian/workspace.json
+**/.obsidian/graph.json
+**/.obsidian/plugins/*/data.json
+**/*.swp
+**/Thumbs.db
+**/*.pyc
+**/*.pyo
+**/__pycache__/
+
+# Python virtual environments
+.venv/
+venv/
