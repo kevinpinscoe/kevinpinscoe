@@ -198,6 +198,7 @@ repositories:
 
     # Project and Task Management
     youtrack:               [area-project-management]
+    vermilian:              [area-project-management]
 
     # Outliers
     kevinpinscoe.github.io: [area-outliers]

@@ -110,6 +110,7 @@ Weather reporting, instrumentation, and decoding.
 
 Project tracking, issue management, and workflow tooling.
 
+- [vermilian](https://github.com/kevinpinscoe/vermilian) — Cross-platform Electron desktop app providing an opinionated, enhanced frontend for a self-hosted JetBrains YouTrack instance.
 - [youtrack](https://github.com/kevinpinscoe/youtrack) — YouTrack workflows and scripts I created.
 
 ## Outliers
