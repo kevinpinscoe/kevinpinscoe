@@ -49,6 +49,13 @@ categories:
       - Python
       - Developer tools
 
+  - name: Distribution
+    topic: area-distribution
+    description: Package manager repositories and software distribution channels for the tools I publish (Homebrew, Scoop, APT, RPM, AppImage).
+    subjects:
+      - Package manager repositories
+      - Software distribution channels
+
   - name: AI
     topic: area-ai
     description: AI skills, automation, and tooling built around Claude Code and other assistants.
@@ -156,10 +163,12 @@ repositories:
     # Software Development
     humungit:               [area-software-development]
     dotfiles:               [area-software-development]
-    homebrew-tap:           [area-software-development]
-    scoop-bucket:           [area-software-development]
-    rpm:                    [area-software-development]
-    apt:                    [area-software-development]
+
+    # Distribution
+    homebrew-tap:           [area-distribution]
+    scoop-bucket:           [area-distribution]
+    rpm:                    [area-distribution]
+    apt:                    [area-distribution]
 
     # AI
     # (skills, skills-tui mapped above)

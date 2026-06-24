@@ -38,10 +38,15 @@ Experiments, sandboxes, and difficult long-term projects.
 
 Go, Python, command-line tools, and developer tooling.
 
-- [apt](https://github.com/kevinpinscoe/apt) — Debian APT repository for kevinpinscoe tools — served via GitHub Pages
 - [dotfiles](https://github.com/kevinpinscoe/dotfiles) — How I work sanely in terminal between Linux, Mac and Raspberry Pi (`dotfiles`)
-- [homebrew-tap](https://github.com/kevinpinscoe/homebrew-tap) — Homebrew tap for kevinpinscoe tools
 - [humungit](https://github.com/kevinpinscoe/humungit) — Greetings from the Lord Humungit, the warrior of the git wasteland!
+
+## Distribution
+
+Package manager repositories and software distribution channels for the tools I publish (Homebrew, Scoop, APT, RPM, AppImage).
+
+- [apt](https://github.com/kevinpinscoe/apt) — Debian APT repository for kevinpinscoe tools — served via GitHub Pages
+- [homebrew-tap](https://github.com/kevinpinscoe/homebrew-tap) — Homebrew tap for kevinpinscoe tools
 - [rpm](https://github.com/kevinpinscoe/rpm) — Fedora RPM repository for kevinpinscoe tools — served via GitHub Pages
 - [scoop-bucket](https://github.com/kevinpinscoe/scoop-bucket) — Scoop manifests for applications and tools I author or maintain
 
