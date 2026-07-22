@@ -145,7 +145,7 @@ repositories:
     iac-examples:           [area-infrastructure-sre]
     aws-linux-memory-tools: [area-infrastructure-sre]
     AWS:                    [area-infrastructure-sre]
-    fedora-notes:           [area-infrastructure-sre]
+    fedora-linux-development-workstation-notes: [area-infrastructure-sre]
 
     # Playbooks and Skill Demonstration
     playbook:               [area-playbooks]
@@ -246,7 +246,7 @@ repositories:
       description: Reorder lines by drag and drop using a GUI.
     archives:
       description: Archive of old articles from the 1990s–mid-2000s, many still linked to.
-    fedora-notes:
+    fedora-linux-development-workstation-notes:
       description: Notes and observations on using Fedora KDE Plasma as a development desktop.
     how-I-make-books-legacy:
       description: How I make books (typically).

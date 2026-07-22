@@ -17,7 +17,7 @@ AWS, Azure, Kubernetes, infrastructure as code, observability, and operational t
 
 - [AWS](https://github.com/kevinpinscoe/AWS) — AWS infrastructure notes and examples.
 - [aws-linux-memory-tools](https://github.com/kevinpinscoe/aws-linux-memory-tools) — Some tools to determine if your AWS Linux instance is too small
-- [fedora-notes](https://github.com/kevinpinscoe/fedora-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop.
+- [fedora-linux-development-workstation-notes](https://github.com/kevinpinscoe/fedora-linux-development-workstation-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop.
 - [iac-examples](https://github.com/kevinpinscoe/iac-examples) — Some examples of Infrastructure as Code (IaC)
 
 ## Playbooks and Skill Demonstration
