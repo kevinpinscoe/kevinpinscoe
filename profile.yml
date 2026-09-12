@@ -191,6 +191,7 @@ repositories:
     # Knowledge Management
     personal-knowledge-management: [area-knowledge-management]
     personal-context-management:   [area-knowledge-management]
+    obsidian-travel-vault-example: [area-knowledge-management]
 
     # Publishing and Markdown
     mydocs:                 [area-publishing-markdown]

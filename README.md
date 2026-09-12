@@ -25,7 +25,7 @@ AWS, Azure, Kubernetes, infrastructure as code, observability, and operational t
 
 - [AWS](https://github.com/kevinpinscoe/AWS) — AWS infrastructure notes and examples.
 - [aws-linux-memory-tools](https://github.com/kevinpinscoe/aws-linux-memory-tools) — Some tools to determine if your AWS Linux instance is too small
-- [fedora-linux-development-workstation-notes](https://github.com/kevinpinscoe/fedora-linux-development-workstation-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop.
+- [fedora-notes](https://github.com/kevinpinscoe/fedora-notes) — Notes and observations on using Fedora KDE Plasma as a development desktop
 - [iac-examples](https://github.com/kevinpinscoe/iac-examples) — Some examples of Infrastructure as Code (IaC)
 
 ## Playbooks and Skill Demonstration
@@ -93,6 +93,7 @@ Raspberry Pi, discrete I/O, and device-level programming.
 
 PKM, PCM, documentation, and information organization.
 
+- [obsidian-travel-vault-example](https://github.com/kevinpinscoe/obsidian-travel-vault-example) — A privacy-safe example of an Obsidian travel-planning vault. It demonstrates structured place and trip notes, reusable templates, YAML frontmatter, map views, and a workflow that syncs smoothly between desktop and iPhone with Obsidian Sync. The locations are real but intentionally unrelated to the author's personal travel history.
 - [personal-context-management](https://github.com/kevinpinscoe/personal-context-management) — PCM workflow for capturing what matters now, so tools, people, and AI can work with the right background.
 - [personal-knowledge-management](https://github.com/kevinpinscoe/personal-knowledge-management) — My evolving pipelines and workflows for my Personal Knowledge Management using Obsidian.
 
