@@ -12,3 +12,8 @@ Why I do not identify as a "vibe coder"
 I do not self-identify as a "vibe coder" and frankly dislike that term.
 
 [Read more →](https://gist.github.com/kevinpinscoe/560f98eab2ca8f27cd5ddff3490fe6d4)
+
+## What I'm working on
+
+- [Vermilian](https://github.com/kevinpinscoe/vermilian) — Cross-platform Electron desktop app providing an opinionated, enhanced frontend for a self-hosted JetBrains YouTrack instance.
+- [Parzival](https://github.com/kevinpinscoe/parzival) — Secret broker and credential-leak prevention project, currently in private staging ahead of public release.
