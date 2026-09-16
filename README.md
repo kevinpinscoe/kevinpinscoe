@@ -76,6 +76,7 @@ AI skills, automation, and tooling built around Claude Code and other assistants
 Command-line utilities and helper tools.
 
 - [ashpodder](https://github.com/kevinpinscoe/ashpodder) — My version of bashpodder, named for Ash in the Evil Dead movies.
+- [bao-policy-editor](https://github.com/kevinpinscoe/bao-policy-editor) — A visual, open-source HCL policy editor for OpenBao. Build, validate, simulate, and safely manage ACL policies with guided rules and effective-access explanations.
 - [ddir](https://github.com/kevinpinscoe/ddir) — Recursively compare two directories — reports missing files and shows side-by-side diffs on files that differ.
 - [tools](https://github.com/kevinpinscoe/tools) — Linux and Mac tools I have created.
 - [unix-hacks](https://github.com/kevinpinscoe/unix-hacks) — Unix hacks I have collected over the decades.

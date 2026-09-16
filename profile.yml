@@ -175,6 +175,7 @@ repositories:
 
     # Tools
     ashpodder:              [area-tools]
+    bao-policy-editor:      [area-tools]
     ddir:                   [area-tools]
     tools:                  [area-tools]
     unix-hacks:             [area-tools]
